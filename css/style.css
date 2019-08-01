@@ -1,0 +1,205 @@
+/* un "."para las class y un "#" para los id*/
+body{
+	font-family: arial;
+	background-image: url(../img/fondo.png);
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+h2, h3, p, ol, ul{
+	color: white;
+	font-size: 22px;
+	font-family:comic-sans;
+}
+h4 h5{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+p{
+	/*text-align: center;*/
+}
+
+thead{
+	color: black;
+}
+
+a{
+	color: rgb(160, 0, 29);
+	font-size: 22px;
+}
+
+tbody{
+	color: black;
+}
+form{
+	color: white;
+}
+table,th,td{
+	border-collapse: collapse;
+	border: 2px solid black; 
+	background-color: rgba(9,200,230,0.23);
+}
+footer{
+	color: rgba(28,28,28,1);
+	text-align: center;
+	clear: both;
+
+}
+
+section{
+	padding-bottom: 10px;
+}
+
+img{
+	padding: 5px;
+}
+
+textarea{
+	padding: 5px;
+}
+
+#formulario{
+	text-align: center;
+	color: white;
+	margin:0px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.informacion{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px
+}
+.sexo{
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.tabla{
+	color: white;
+	text-align: center;
+}
+.servicio{
+	text-align: center;
+}
+
+.sus{
+	text-align: center;
+}
+
+.formulario, .form{
+	margin: auto;		
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+}
+
+.col1 , .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	margin-right: 15px;
+}
+.col2{
+	align-items: flex-start;
+}
+.col2 .button {
+	margin-top: 15px;
+}
+.formulario label, .sexo,{
+	margin-bottom: 10px;
+}
+.sexo{
+	margin-top: 10px;
+}
+
+.precio{
+	border: solid 2px #cc0f02;
+	background: #cc0f02;
+	border-radius: 7px;
+	width: 63px;
+	padding: auto;
+}
+.imgsus{
+	padding-top: 10px;
+}
+.horario{
+	text-align: center;
+}
+.ntemporada{
+	color: #a81414;
+}
+
+.slider{
+	background-image: url("../img/flash2.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.display-2{
+	color: #f2c618;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 80px;
+}
+.contenedor{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+
+.contenedor video,
+.contenedor iframe{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+
+.link:hover{
+	color: orange;
+}
+
+.link:visited{
+	color: rgb(255, 204, 0);
+}
+
+.link{
+	color: #c61309;
+}
+
+.video_de_flash{
+	text-align: center;
+}
+
+.form{
+	width: 450px;
+	margin: auto;		
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+.navbar{
+	width: 100%;
+}
+
+.display2{
+	color: #f2c618;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 50px;
+}
